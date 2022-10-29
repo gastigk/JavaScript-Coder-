@@ -1,0 +1,68 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', Arial, Helvetica, sans-serif;
+    box-sizing: border-box;
+}
+
+/* Estilado del index */
+
+body {
+    padding: 20px;
+    display: block;
+    text-align: center;
+}
+
+header .btn-checkout{
+    float: right;
+}
+
+.container {
+    gap: 30px;
+    display: flex;
+    flex-direction:row;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.card {
+    box-shadow: 5px 20px 20px rgba(32 85 86 / 30%);
+    border: 1px solid rgba(1, 40, 7, 0.384);
+    border-radius: 8px;
+    height: 270px;
+    width: 180px;
+}
+
+.card:hover {
+    transition: .5s ease-in;
+    box-shadow: 5px 20px 60px rgba(33, 170, 67, 0.519);
+}
+
+.card .card-image {
+    font-size: 60px;
+    width: 1fr;
+}
+
+.card .card-name {
+    font-size: 24px;
+    font-weight: 700;
+    width: 1fr;
+}
+
+.card .card-price {
+    font-size: 20px;
+    font-weight: 500;
+    width: 1fr;
+}
+
+.button-add {
+    border-radius: 10px;
+    outline: 1px solid rgba(33, 170, 67, 0.519);
+}
+
+.titulo{
+    color: rgba(28 40 78 / 52%)
+}
+
+/* hasta aquí estilado del index */
